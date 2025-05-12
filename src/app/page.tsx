@@ -1,7 +1,9 @@
-export default function HomePage() {
+import SpinLoader from '@/components/SpinLoader';
+
+export default async function HomePage() {
   return (
     <div>
-      <h1 className='text-3xl font-bold underline'>ola estou no page.tsx</h1>
+      <SpinLoader classNameSpin='min-h-40'/>
     </div>
   );
 }
